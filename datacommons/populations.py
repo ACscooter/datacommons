@@ -425,6 +425,7 @@ def get_place_obs(place_type, observation_date, population_type, constraining_pr
 
     Each :obj:`Observation` is represented by a :obj:`dict` with the following
     keys.
+
     - :code:`measuredProp`: The property measured by the :obj:`Observation`.
     - :code:`measurementMethod` (optional): A field identifying how the
       :obj:`Observation` was made
